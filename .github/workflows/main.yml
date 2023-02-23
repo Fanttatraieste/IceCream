@@ -33,7 +33,7 @@ jobs:
       - name: Sass Build
         uses: gha-utilities/sass-build@v0.4.11
         with:
-          source: ./sass/main.scss
+          source: ./src/sass/main.scss
           destination: ./css/main.min.css
       - name: HTML5 Validator
         uses: Cyb3r-Jak3/html5validator-action@v7.2.0
